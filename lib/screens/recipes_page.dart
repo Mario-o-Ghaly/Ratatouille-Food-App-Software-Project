@@ -27,7 +27,7 @@ class _RecipesPageState extends State<RecipesPage> {
   Future<void> generateRecipes() async {
   // final List<String> selectedIngredients;
       // Access your API key as an environment variable (see "Set up your API key" above)
-  final apiKey = "AIzaSyChdv7dILkNa4FZVHKkKLPWfzm-SaLdctE";
+  final apiKey = "";
   if (apiKey == null) {
     print('No \$API_KEY environment variable');
     exit(1);
